@@ -1,0 +1,27 @@
+{
+  "name": "CheckOutHeader",
+  "plural": "CheckOutHeaders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "MERCHANT_ID": {
+      "type": "string",
+      "required": true
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    },
+    "TIMESTAMP": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -63,5 +63,9 @@
   "ResultMsg": {
     "dataSource": "db",
     "public": true
+  },
+  "CheckOutHeader": {
+    "dataSource": "db",
+    "public": true
   }
 }
