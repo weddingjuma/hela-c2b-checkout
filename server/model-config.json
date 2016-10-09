@@ -35,5 +35,9 @@
   "test": {
     "dataSource": "db",
     "public": true
+  },
+  "processCheckOutRequest": {
+    "dataSource": "db",
+    "public": true
   }
 }

@@ -1,0 +1,42 @@
+{
+  "name": "processCheckOutRequest",
+  "plural": "processCheckOutRequests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "MERCHANT_TRANSACTION_ID": {
+      "type": "string",
+      "required": true
+    },
+    "REFERENCE_ID": {
+      "type": "string",
+      "required": true
+    },
+    "AMOUNT": {
+      "type": "double",
+      "required": true
+    },
+    "MSISDN": {
+      "type": "string",
+      "required": true
+    },
+    "CALL_BACK_URL": {
+      "type": "string",
+      "required": true
+    },
+    "CALL_BACK_METHOD": {
+      "type": "string",
+      "required": true
+    },
+    "ENC_PARAMS": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
