@@ -7,6 +7,18 @@
     "validateUpsert": true
   },
   "properties": {
+      "MERCHANT_ID": {
+      "type": "string",
+      "required": true
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    },
+    "TIMESTAMP": {
+      "type": "string",
+      "required": true
+    },
     "TRX_ID": {
       "type": "string",
       "required": true
@@ -15,6 +27,7 @@
       "type": "string",
       "required": true
     }
+
   },
   "validations": [],
   "relations": {},

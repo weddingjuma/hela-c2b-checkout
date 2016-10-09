@@ -37,11 +37,11 @@
     },
     "MERCHANT_TRANSACTION_ID": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "ENC_PARAMS": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "TRX_ID": {
       "type": "string",

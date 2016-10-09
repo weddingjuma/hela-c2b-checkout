@@ -46,7 +46,6 @@
     "ENC_PARAMS": {
       "type": "string"
     }
-    
   },
   "validations": [],
   "relations": {},
