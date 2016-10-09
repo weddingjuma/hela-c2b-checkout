@@ -7,6 +7,18 @@
     "validateUpsert": true
   },
   "properties": {
+    "MERCHANT_ID": {
+      "type": "string",
+      "required": true
+    },
+    "PASSWORD": {
+      "type": "string",
+      "required": true
+    },
+    "TIMESTAMP": {
+      "type": "string",
+      "required": true
+    },
     "MERCHANT_TRANSACTION_ID": {
       "type": "string",
       "required": true
@@ -16,7 +28,7 @@
       "required": true
     },
     "AMOUNT": {
-      "type": "double",
+      "type": "string",
       "required": true
     },
     "MSISDN": {
@@ -34,6 +46,7 @@
     "ENC_PARAMS": {
       "type": "string"
     }
+    
   },
   "validations": [],
   "relations": {},
