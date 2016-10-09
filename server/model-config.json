@@ -51,5 +51,9 @@
   "transactionConfirmResponse": {
     "dataSource": "db",
     "public": true
+  },
+  "transactionStatusResponse": {
+    "dataSource": "db",
+    "public": true
   }
 }

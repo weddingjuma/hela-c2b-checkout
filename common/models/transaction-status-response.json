@@ -1,0 +1,55 @@
+{
+  "name": "transactionStatusResponse",
+  "plural": "transactionStatusResponses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "MSISDN": {
+      "type": "string",
+      "required": true
+    },
+    "AMOUNT": {
+      "type": "string",
+      "required": true
+    },
+    "MPESA_TRX_DATE": {
+      "type": "string",
+      "required": true
+    },
+    "MPESA_TRX_ID": {
+      "type": "string",
+      "required": true
+    },
+    "TRX_STATUS": {
+      "type": "string",
+      "required": true
+    },
+    "RETURN_CODE": {
+      "type": "string",
+      "required": true
+    },
+    "DESCRIPTION": {
+      "type": "string",
+      "required": true
+    },
+    "MERCHANT_TRANSACTION_ID": {
+      "type": "string",
+      "required": true
+    },
+    "ENC_PARAMS": {
+      "type": "string",
+      "required": true
+    },
+    "TRX_ID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
