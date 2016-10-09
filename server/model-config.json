@@ -59,5 +59,9 @@
   "transactionStatusRequest": {
     "dataSource": "db",
     "public": true
+  },
+  "ResultMsg": {
+    "dataSource": "db",
+    "public": true
   }
 }
