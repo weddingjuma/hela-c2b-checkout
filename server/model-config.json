@@ -43,5 +43,9 @@
   "processCheckOutResponse": {
     "dataSource": "db",
     "public": true
+  },
+  "transactionConfirmRequest": {
+    "dataSource": "db",
+    "public": true
   }
 }

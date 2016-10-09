@@ -1,0 +1,21 @@
+{
+  "name": "transactionConfirmRequest",
+  "plural": "transactionConfirmRequests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "TRX_ID": {
+      "type": "string"
+    },
+    "MERCHANT_TRANSACTION_ID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
