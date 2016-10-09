@@ -41,7 +41,7 @@
     },
     "ENC_PARAMS": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "TRX_ID": {
       "type": "string",
