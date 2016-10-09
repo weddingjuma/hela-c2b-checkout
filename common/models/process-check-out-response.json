@@ -1,0 +1,35 @@
+{
+  "name": "processCheckOutResponse",
+  "plural": "processCheckOutResponses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "RETURN_CODE": {
+      "type": "string",
+      "required": true
+    },
+    "DESCRIPTION": {
+      "type": "string",
+      "required": true
+    },
+    "TRX_ID": {
+      "type": "string",
+      "required": true
+    },
+    "ENC_PARAMS": {
+      "type": "string",
+      "required": true
+    },
+    "CUST_MSG": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
