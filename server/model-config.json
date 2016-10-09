@@ -47,5 +47,9 @@
   "transactionConfirmRequest": {
     "dataSource": "db",
     "public": true
+  },
+  "transactionConfirmResponse": {
+    "dataSource": "db",
+    "public": true
   }
 }
