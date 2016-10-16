@@ -1,0 +1,37 @@
+version: '1'
+
+services:
+	postgres:
+		image: postgres:9.6
+		container_name: postgres
+		environment:
+			POSTGRES_USER: hela-c2b-checkout
+			POSTGRES_PASSWORD: J5brHrAXFLQSif0K
+			POSTGRES_DB: hela-c2b-checkout
+
+	accounting:
+		build: .
+		image: chamaconekt/hela-c2b-checkout
+		links:
+		- postgres
+		container_name: hela-c2b-checkout
+		depends_on:
+			- postgres
+		environment:
+
+	nginx:
+		image: nginx:1.11.11-alpine
+		links:
+			- hela-c2b-checkout
+		container_name: nginx
+		command: nginx -g 'daemon off;' -c /etc/hela-c2b-checkout-nginx/nginx.conf
+		depends_on:
+			- hela-c2b-checkout
+		ports:
+			- 80:80
+		volumes_from:
+			- hela-c2b-checkout
+
+volumes:
+	hela-c2b-checkout-static-files:
+		driver:local
